@@ -243,9 +243,6 @@ const ContactUs = () => {
     <section className="contact-section">
       <h2 style={{ textAlign: 'center', fontSize: '32px', marginBottom: '30px' }}>Contact Us</h2>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-        <div style={{ flex: '1', maxWidth: '500px', marginBottom: '20px' }}>
-          <img src="contact.avif" alt="Contact Us" style={{ width: '100%', height: 'auto' }} />
-        </div>
         <div style={{ flex: '1', maxWidth: '500px', paddingLeft: '40px' }}>
           <form style={{ display: 'flex', flexDirection: 'column' }}>
             <label htmlFor="name" style={{ marginBottom: '10px' }}>Name:</label>
