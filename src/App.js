@@ -241,20 +241,24 @@ const FAQs = () => {
 const ContactUs = () => {
   return (
     <section className="contact-section">
-      <h2 className="section-title">Contact Us</h2>
-      <div className="contact-grid">
-        <form className="contact-form">
-          <input type="text" placeholder="Name" className="contact-input" />
-          <input type="email" placeholder="Email" className="contact-input" />
-          <textarea placeholder="Message" rows="6" className="contact-input"></textarea>
-          <button type="submit" className="contact-button">Send Message</button>
-        </form>
-        <div className="contact-info">
-          <h3 className="contact-info-title">Contact Information</h3>
-          <p>123 Main Street</p>
-          <p>City, State ZIP</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: info@example.com</p>
+      <h2 style={{ textAlign: 'center', fontSize: '32px', marginBottom: '30px' }}>Contact Us</h2>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div style={{ flex: '1', maxWidth: '500px', marginBottom: '20px' }}>
+          <img src="contact.avif" alt="Contact Us" style={{ width: '100%', height: 'auto' }} />
+        </div>
+        <div style={{ flex: '1', maxWidth: '500px', paddingLeft: '40px' }}>
+          <form style={{ display: 'flex', flexDirection: 'column' }}>
+            <label htmlFor="name" style={{ marginBottom: '10px' }}>Name:</label>
+            <input type="text" id="name" name="name" style={{ marginBottom: '20px', padding: '10px' }} />
+
+            <label htmlFor="email" style={{ marginBottom: '10px' }}>Email:</label>
+            <input type="email" id="email" name="email" style={{ marginBottom: '20px', padding: '10px' }} />
+
+            <label htmlFor="message" style={{ marginBottom: '10px' }}>Message:</label>
+            <textarea id="message" name="message" rows="4" style={{ marginBottom: '20px', padding: '10px' }}></textarea>
+
+            <button type="submit" style={{ padding: '10px 20px', alignSelf: 'flex-start' }}>Send Message</button>
+          </form>
         </div>
       </div>
     </section>
