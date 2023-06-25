@@ -7,7 +7,7 @@
 /* Header */
 
 header {
-  background: #F7CE77;
+  background: #f7a1c5;
   padding: 20px;
   color: #363535;
 }
@@ -198,7 +198,7 @@ header {
 /* Pricing */
 
 #pricing {
-  background: #f7a1c5;
+  background: #F7CE77;
   color: #363535;
   padding: 50px;
 }
@@ -309,7 +309,7 @@ header {
 /* ContactUs */
 
 .contact-section {
-  background: #f7ce77;
+  background: #f7a1c5;
   color: #363535;
   padding: 50px;
 }

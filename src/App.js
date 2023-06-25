@@ -264,7 +264,7 @@ const ContactUs = () => {
 
 const DownloadMobileApp = () => {
   return (
-    <section style={{ background: '#F7CE77', color: '#363535', padding: '50px' }}>
+    <section style={{ background: '#f7a1c5', color: '#363535', padding: '50px' }}>
       <h2 style={{ textAlign: 'center', fontSize: '32px', marginBottom: '30px' }}>Download Our Mobile App</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap' }}>
         <div style={{ flex: '1', maxWidth: '400px', marginRight: '20px', marginBottom: '20px' }}>
